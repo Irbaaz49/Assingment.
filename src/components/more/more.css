@@ -1,0 +1,25 @@
+.more {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  -webkit-box-shadow: 1px 1px 15px 5px #a1a1a1;
+  box-shadow: 1px 1px 15px 5px #a1a1a1;
+  flex-wrap: wrap;
+}
+.team {
+  flex: 2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 5px;
+  height: 200px;
+ 
+  
+}
+.latestProject {
+  flex: 2;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 25px;
+  justify-content: space-between;
+}

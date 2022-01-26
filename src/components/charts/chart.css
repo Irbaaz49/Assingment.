@@ -1,0 +1,33 @@
+.chart {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  -webkit-box-shadow: 1px 1px 15px 5px #a1a1a1;
+  box-shadow: 1px 1px 15px 5px #a1a1a1;
+}
+.leftChart {
+  flex: 1;
+}
+.rightChart {
+  flex: 4;
+  padding-left: 10px;
+}
+.chartTitle {
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+@media only screen and (max-width: 600px) {
+  .chart {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .chartTitle {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .rightChart {
+    position: relative;
+    left: -20px;
+  }
+}

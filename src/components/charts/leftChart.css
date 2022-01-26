@@ -1,0 +1,32 @@
+.topSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.number {
+  font-weight: 900;
+  font-size: 20px;
+}
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-bottom: 1px solid lightgray;
+}
+.last {
+  display: flex;
+  color: grey;
+  justify-content: right;
+  font-size: 12px;
+  cursor: pointer;
+  padding-top: 5px;
+  font-weight: 600;
+}
+.project p{
+    color: grey;
+    font-weight: 600;
+}
+.project span{
+    font-weight: 500;
+}

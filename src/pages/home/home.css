@@ -1,0 +1,42 @@
+.home {
+  flex: 4;
+  margin-top: 10px;
+}
+.head {
+  display: flex;
+  margin: 10px 20px 20px 10px;
+  padding: 5px 20px 20px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.dash{
+  color: rgb(100, 100, 100);
+}
+h2 {
+  margin-top: 5px;
+  color: rgb(0, 0, 0);
+
+}
+
+.dashRight {
+  margin-top: -15px;
+  position: relative;
+  top: -25px;
+  font-size: 15px;
+
+  color: rgb(85, 84, 84);
+  font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+ h2{
+  font-size: 15px;
+  font-weight: 600;
+
+}
+.dashRight{
+  top: -10px;
+  font-size: 10px;
+
+}
+
+}

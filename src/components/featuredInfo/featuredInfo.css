@@ -1,0 +1,114 @@
+.featured {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.featureditem {
+  flex: 1;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  -webkit-box-shadow: 1px 1px 15px 5px #a1a1a1;
+  box-shadow: 1px 1px 15px 5px #a1a1a1;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.featuredSub {
+  position: relative;
+  display: flex;
+  text-align: center;
+  left: 10px;
+  bottom: 10px;
+  margin-left: 15px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: royalblue;
+  color: white;
+}
+.featuredTitle {
+  color: rgb(104, 103, 103);
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.featuredMoney {
+  color: rgb(22, 22, 22);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.featuredMoneyRate {
+  color: green;
+  font-size: 12px;
+  margin-left: 10px;
+  padding: 1px;
+  border-radius: 5px;
+  background-color: rgb(230, 230, 230);
+}
+.progress{
+    position: relative;
+    height: 10px;
+    width: 120px;
+    border: 1px solid #cccbc9;
+    border-radius: 15px;
+    background-color: royalblue;
+    animation: progres 4s  linear;
+}
+@keyframes progres{
+    0%{
+      width: 0px;
+    }
+    25%{
+        width: 50px;
+    }
+    50%{
+        width: 75px;
+    }
+    75%{
+        width: 85px;
+    }
+    100%{
+        width: 120px;
+    }
+}
+.featureditem:hover{
+
+    background-color: rgb(192, 192, 238);
+  
+  
+}
+@media only screen and (max-width: 600px) {
+.featureditem{
+  margin-bottom: 15px;
+}
+.progress{
+  width: 200px;
+  animation: progres 4s  linear;
+  margin-top : 15px;
+}
+@keyframes progres{
+  0%{
+    width: 0px;
+  }
+  25%{
+      width: 50px;
+  }
+  50%{
+      width: 105px;
+  }
+  75%{
+      width: 155px;
+  }
+  100%{
+      width: 200px;
+  }
+}
+}
